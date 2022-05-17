@@ -1,0 +1,177 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff000;
+    background-image: linear-gradient(315deg, #fff000 0%, #ed008c 74%);
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 350px;
+    min-height: 100%;
+    padding: 20px;
+    background: grey;
+    transition: 0.3s;
+}
+
+.cart.active {
+    right: 0;
+}
+
+#carticon {
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.cart-titulo{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600px;
+    margin-top: 2rem;
+}
+
+.cart-img {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+}
+
+.cart-box {
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.detail-box {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.cart-producto-titulo {
+    font-size: 1rem;
+}
+
+.cart-price {
+    font-weight: 500;
+}
+
+.cart-cantidad {
+    color: black;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+#cart-eliminar {
+    font-size: 16px;
+    color: red;
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border-top: 1px solid black;
+}
+
+.total-titulo {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.total-price {
+    margin-left: 0.5rem;
+}
+
+.btn-buy {
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background: gold;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-buy:hover{
+    color: black;
+}
+
+#close-cart {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+}
+
+.shop-container {
+    padding: 4rem 0 3rem;
+    text-align: center;
+}
+
+.seccion-titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.shop-content {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    gap: 1.2rem;
+}
+
+.product-box {
+    position: relative;
+}
+
+.product-img {
+    width: 70%;
+    height: auto;
+}
+
+.price {
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
+
+.addCart {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.product-title {
+    font-size: 22px;
+}
+
+.swal-modal {
+    background-color: rgba(63, 121, 255, 0.811);
+    border: 3px solid white;
+    margin-top: 15px;
+    font-size: 16px;
+    color: black;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
+    gap: 1.2rem;
+}

@@ -1,0 +1,8 @@
+[
+    {"id":"1","nombre":"JBL","precio":"19.99", "cantidad":"1","img":"imagenes/jbl.png"},
+    {"id":"2","nombre":"JBL Charge2","precio":"21.99", "cantidad":"1","img":"imagenes/jbl4.png"},
+    {"id":"3","nombre":"Qled Gaming","precio":"55.99", "cantidad":"1","img":"imagenes/monitorS.png"},
+    {"id":"4","nombre":"Ultra WQHD","precio":"32.99", "cantidad":"1","img":"imagenes/monitor2.png"},
+    {"id":"5","nombre":"Monitor Curved","precio":"45.99", "cantidad":"1","img":"imagenes/monitorg.png"},
+    {"id":"6","nombre":"SmartTv Qled","precio":"35.99", "cantidad":"1","img":"imagenes/smartv.png"}
+]
